@@ -26,7 +26,7 @@ const PageHeader: React.FC = () => {
         </Link>
       </Navbar>
     </Container>
-  )
+  );
 }
 
 export default PageHeader;

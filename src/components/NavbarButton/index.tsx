@@ -10,7 +10,7 @@ const NavbarButton: React.FC<NavbarButtonProps> = (props) => {
     <Container>
       <Title>{props.name}</Title>
     </Container>
-  )
+  );
 }
 
 export default NavbarButton;
