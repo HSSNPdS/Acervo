@@ -1,0 +1,52 @@
+:root{
+  font-size: 60%;
+
+  --black: #070000;
+  --gray: #7D7B7B;
+  --white: #F6F6F6;
+  
+  --red-dark: #610000;
+  --red: #DD0000;
+}
+
+#root{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root{
+  height: 100vh;
+}
+
+html{
+  background-image: url('../images/bg.jpg');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+body,
+input,
+button,
+textarea{
+  font: 500 1.5rem Poppins;
+  color: var(--color-text-base);
+}
+
+.container{
+  width: 90vw;
+  max-width: 900px;
+}
+
+@media(min-width: 700px){
+  :root{
+    font-size: 62.5%;
+  }
+}

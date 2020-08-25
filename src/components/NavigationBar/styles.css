@@ -1,0 +1,10 @@
+.page-header{
+  width: 100vw;
+  height: 16vh;
+  flex-direction: column;
+  background: var(--black);
+}
+
+.container-buttons{
+  display: flex;
+}

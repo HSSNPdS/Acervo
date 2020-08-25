@@ -1,13 +1,15 @@
 import React from 'react';
-import GlobalStyles from './assets/styles/GlobalStyles';
-import Routes from './pages/routes';
+
+import './assets/styles/global.css';
+import NavigationBar from './components/NavigationBar';
 
 function App() {
   return (
     <>
-      <Routes/>
-      
-      <GlobalStyles/>
+    <div className='bgImage'>
+      <NavigationBar/>
+    </div>
+    
     </>
   );
 }
