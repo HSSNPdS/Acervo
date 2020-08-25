@@ -5,7 +5,9 @@ import './styles.css';
 function NavigationBar() {
   return(
     <header className='page-header'>
-      <title>ARQUIVO</title>
+      <a href="/" className='title-box'>
+        <h1>ARQUIVO</h1>
+      </a>
       <div className='container-buttons'>
         <button>Textos</button>
         <button>Imagens</button>
