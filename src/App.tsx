@@ -13,6 +13,10 @@ function App() {
       <ContentBox>
         <ArticlePreview/>
         <ArticlePreview/>
+        <ArticlePreview/>
+        <ArticlePreview/>
+        <ArticlePreview/>
+        <ArticlePreview/>
       </ContentBox>
     </div>
     
